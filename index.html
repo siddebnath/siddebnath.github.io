@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Siddharth Debnath — Senior Data Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="pipeline-rail" aria-hidden="true">
+  <div class="rail-line"></div>
+</div>
+
+<header class="section header" id="source">
+  <span class="node-label mono">SOURCE</span>
+  <div class="header-content">
+    <p class="eyebrow mono">// data_engineer.profile</p>
+    <h1>Siddharth Debnath</h1>
+    <p class="title">Senior Data Engineer</p>
+    <p class="value-prop">I build pipelines that survive contact with production — streaming and batch, on AWS and GCP, moving data from raw to reliable.</p>
+    <div class="header-links">
+      <a class="btn btn-primary" href="assets/resume.pdf" download>Download résumé</a>
+      <a class="btn btn-ghost" href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn btn-ghost" href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</header>
+
+<section class="section stack" id="transform">
+  <span class="node-label mono">TRANSFORM</span>
+  <div class="stack-content">
+    <p class="section-label mono">// tech_stack</p>
+    <ul class="stack-grid">
+      <li class="stack-item"><span class="stack-name">SQL</span><span class="stack-meta mono">query &amp; modeling</span></li>
+      <li class="stack-item"><span class="stack-name">Python</span><span class="stack-meta mono">ETL &amp; scripting</span></li>
+      <li class="stack-item"><span class="stack-name">PySpark</span><span class="stack-meta mono">distributed processing</span></li>
+      <li class="stack-item"><span class="stack-name">AWS</span><span class="stack-meta mono">S3 · Glue · Redshift</span></li>
+      <li class="stack-item"><span class="stack-name">GCP</span><span class="stack-meta mono">BigQuery · Dataflow</span></li>
+      <li class="stack-item"><span class="stack-name">Tableau</span><span class="stack-meta mono">visualization</span></li>
+      <li class="stack-item"><span class="stack-name">Kafka</span><span class="stack-meta mono">streaming</span></li>
+      <li class="stack-item"><span class="stack-name">dbt</span><span class="stack-meta mono">transformation</span></li>
+      <li class="stack-item"><span class="stack-name">Airflow</span><span class="stack-meta mono">orchestration</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="section projects" id="load">
+  <span class="node-label mono">LOAD</span>
+  <div class="projects-content">
+    <p class="section-label mono">// projects</p>
+
+    <article class="project-card">
+      <div class="project-head">
+        <h3>Streaming Fraud Detection Pipeline</h3>
+        <a class="project-link" href="projects/project1.html">View case study →</a>
+      </div>
+      <p class="project-summary">Real-time transaction scoring using Kafka and PySpark, cutting alert latency from minutes to seconds.</p>
+      <ul class="tag-row mono">
+        <li>Kafka</li><li>PySpark</li><li>AWS</li><li>Medallion Architecture</li>
+      </ul>
+    </article>
+
+    <article class="project-card">
+      <div class="project-head">
+        <h3>Batch ELT with dbt + Snowflake</h3>
+        <a class="project-link" href="projects/project2.html">View case study →</a>
+      </div>
+      <p class="project-summary">Airflow-orchestrated pipeline with dbt tests and CI checks, replacing a brittle set of cron scripts.</p>
+      <ul class="tag-row mono">
+        <li>Airflow</li><li>dbt</li><li>Snowflake</li><li>GitHub Actions</li>
+      </ul>
+    </article>
+
+    <article class="project-card">
+      <div class="project-head">
+        <h3>Fraud Analytics Dashboard</h3>
+        <a class="project-link" href="projects/project3.html">View case study →</a>
+      </div>
+      <p class="project-summary">SQL feature engineering feeding a Tableau dashboard used by risk analysts for daily triage.</p>
+      <ul class="tag-row mono">
+        <li>SQL</li><li>Python</li><li>Tableau</li>
+      </ul>
+    </article>
+
+  </div>
+</section>
+
+<footer class="section footer" id="sink">
+  <span class="node-label mono">SINK</span>
+  <div class="footer-content">
+    <p class="section-label mono">// contact</p>
+    <div class="footer-links">
+      <a href="mailto:youremail@example.com">youremail@example.com</a>
+      <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+      <a href="assets/resume.pdf" download>Résumé (PDF)</a>
+    </div>
+    <p class="footer-note mono">Built and deployed on GitHub Pages.</p>
+  </div>
+</footer>
+
+</body>
+</html>
